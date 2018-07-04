@@ -16,7 +16,9 @@ class World:
     
     def __init__(self, model): 
         self.model = model
-        #self.rate_ret = 1.1
+        self.rate_ret = self.pickle_open("data_abm/year2rate_return.dump")
+        #print (self.rate_ret.keys())
+        #stop
         self.sav_rate = self.pickle_open("data_abm/year2saving.dump")
         self.cap_gains = self.pickle_open("data_abm/year2capital_gains.dump")
         #self.growth_rate = 1.1
