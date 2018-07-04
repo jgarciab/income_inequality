@@ -8,23 +8,29 @@ Creates the policy environment
 
 """
 
+import pickle
+
 class World:
     
     #Initiates variables for master equation
     
-    def __init__(self): 
-        self.rate_ret = 1.1
-        self.sav_rate = 1.1
-        self.cap_gains = 1.1
-        self.growth_rate = 1.1
-        self.change_income = 2.3
+    def __init__(self, model): 
+        self.model = model
+        #self.rate_ret = 1.1
+        self.sav_rate = self.pickle_open("data_abm/year2saving.dump")
+        self.cap_gains = self.pickle_open("data_abm/year2capital_gains.dump")
+        #self.growth_rate = 1.1
+        self.income_array = self.pickle_open("data_abm/year2income.dump")
+        self.wealth_array = self.pickle_open("data_abm/year2wealth.dump")
         
     #Reads in data to update varibales for master equation     
     
-    def update(self):
+    def pickle_open(self, file): 
         
-        self.rate_ret += 1
-        self.sav_rate += 1
-        self.cap_gains += 1
-        self.growth_rate += 1
-        self.change_income += 1
+        with open(file, 'rb') as f:
+            data = pickle.load(f)
+            
+        return data
+        
+        
+        
