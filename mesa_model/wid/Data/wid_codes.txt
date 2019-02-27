@@ -1,0 +1,410 @@
+
+Title
+
+    WID.world concepts -- List of five-letter codes to use with the wid command.
+
+Content
+
+    Concepts are divided in seven categories:
+        1) macro income
+        2) distributed income
+        3) macro wealth
+        4) distributed wealth
+        5) wealth/income ratios
+        6) population
+        7) price and exchange rates
+
+1) Macro income
+
+five-letter code              description
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+nninc                         national income
+ndpro                         net domestic product
+gdpro                         gross domestic product
+confc                         consumption of fixed capital of national economy
+nnfin                         net foreign income
+pinrx                         property income received from abroad
+pinpx                         property income paid abroad
+comrx                         compensation of employees received from abroad
+compx                         compensation of employees paid to rest of the world
+nvanf                         net value added of non-financial corporations sector
+nvafc                         net value added of financial corporations sector
+nvago                         net value added of general government
+nvaho                         net value added of personal sector
+nvanp                         net value added of non-profit sector
+nvatp                         taxes on product (net) of national economy
+comnf                         compensation of employees paid by non financial corporations
+nsunf                         net operating surplus of non-financial corporations
+taxnf                         other taxes on production (net) paid by non-financial corporations sector
+comfc                         compensation of employees paid by financial corporations sector
+nsufc                         net operating surplus of financial corporations
+taxfc                         other taxes on production (net) paid by financial corporations
+comgo                         compensation of employees paid by general government
+taxgo                         other taxes on production (net) paid by general government
+comho                         compensation of employees paid by personal sector
+nsuho                         net operating surplus of personal sector
+nmiho                         net mixed income of personal sector
+taxho                         other taxes on production (net) paid by personal sector
+comnp                         compensation of employees paid by non-profit sector
+taxnp                         other taxes on production (net) paid by non-profit sector
+priho                         primary income of personal sector
+prigo                         primary income of general government
+prinf                         primary income of non-financial corporations sector
+prifc                         primary income of financial corporations sector
+prinp                         primary income of non-profit sector
+corho                         compensation of employees received by personal sector
+nmrho                         net mixed income of personal sector
+nsrho                         net operating surplus (housing rents) of personal sector
+prhho                         property income received by personal sector
+prdho                         property income paid by personal sector
+prngo                         primary income of general government
+targo                         taxes on production (net) received by general government
+phigo                         property income received by general government
+phdgo                         property income paid by general government
+phinf                         property income received by non-financial corporations
+phdnf                         property income paid by non-financial corporations
+phifc                         property income received by financial corporations
+phdfc                         property income paid by financial corporations
+prico                         primary income of corporate sector
+nsuco                         net operating surplus of corporate sector
+phico                         property income received by corporate sector
+phdco                         property income paid by corporate sector
+nsunp                         net operating surplus of non-profit sector
+phinp                         property income received by non-profit sector
+phdnp                         property income paid by non-profit sector
+fainc                         personal factor income
+fkigo                         property income received by general government sector
+fkdgo                         property income paid by general government sector
+nopnp                         net operating surplus of npish sector
+fkinp                         property income received by npish sector
+fkdnp                         property income paid by npish sector
+fkcor                         primary income of corporate sector
+fkprg                         taxes on production
+flinc                         factor labor income
+fkinc                         factor capital income
+flemp                         compensation of employees
+fllbu                         labor component of net mixed income
+flprl                         imputed taxes on production
+fkkbu                         capital component of net mixed income
+fkhou                         housing asset income
+fkfin                         property income received
+fkdeb                         property income paid
+fkret                         undistributed corporate profits
+fkprk                         imputed taxed on production
+ppinc                         pre-tax income (pension definition)
+pnpco                         pension contributions
+pmpen                         investment income payable to pension entitlements (pension definition)
+ptpen                         pension benefits (pension definition)
+ptinc                         pre-tax income (social insurance definition)
+plcon                         net social contributions (employers and households)
+pkpen                         investment income payable to pension entitlements (broad definition)
+ptben                         pension benefits (social insurance-based definition)
+plinc                         pre-tax labor income
+pkinc                         pre-tax capital income
+plbel                         labor share of social insurance income
+kminc                         pre-tax capital income
+pkbek                         capital share of social insurance income
+soben                         social insurance benefits
+sobec                         social insurance benefits in cash
+sobeo                         other social insurance benefits
+dincc                         disposable income (narrow definition)
+fprod                         taxes on production
+dicot                         taxes on income and wealth
+dicab                         social assistance benefits
+dikin                         social transfers in kind
+diinc                         disposable income (broad definition)
+dicol                         collective consumption expenditure
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2) Distributed income
+
+five-letter code              description
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+fiinc                         fiscal income
+filin                         fiscal labour income [total fiscal income ranking]
+fiwag                         wages and pensions
+fimil                         labour component of mixed income
+ficap                         fiscal capital income [total fiscal income ranking]
+fimik                         capital component of mixed income
+firen                         rents
+fiint                         interest
+fidiv                         dividends
+fikgi                         capital gains
+fimix                         mixed income
+itinc                         intuitive income
+itlab                         intuitive labor income
+itcap                         intuitive capital income
+fainc                         pre-tax factor income
+flinc                         factor labor income [total pre-tax factor income ranking]
+flemp                         compensation of employees
+flwag                         wages and salaries
+flsup                         supplements to wages and salaries
+flcon                         social contributions
+flmil                         labor component of net mixed income
+fkinc                         factor capital income [total pre-tax factor income ranking]
+fkhou                         housing asset income
+fkequ                         equity asset income
+fkfix                         interest income
+fkpen                         pensions and life insurance asset income
+fkmik                         capital component of mixed income
+fkdeb                         interest payments
+fkmor                         mortgage interest paid
+fknmo                         non-mortgage interest paid
+ptinc                         pre-tax national income
+ptlin                         pre-tax labor income [total pre-tax income ranking]
+ptemp                         compensation of employees
+ptlbu                         labor component of net mixed income
+ptsoc                         pensions and social insurance income (labor share)
+ptkin                         pre-tax capital income [total pre-tax income ranking]
+pthou                         housing asset income
+ptfin                         equity asset income
+ptint                         interest income
+ptkpe                         pensions and social insurance income (capital share)
+ptmik                         capital component of mixed income
+ptinp                         interest payments
+ptmor                         mortgage interest paid
+ptnmo                         non-mortgage interest paid
+govin                         net property income paid by government
+npinc                         net primary income of non-profit institutions
+prspn                         primary surplus of pension system
+invpn                         investment income payable to pension funds
+pllin                         pre-tax labor income [pre-tax labor income ranking]
+plemp                         compensation of employees [pre-tax labor income ranking]
+pllbu                         labor component of net mixed income [pre-tax labor income ranking]
+plsoc                         pensions and social insurance income (labor share) [pre-tax labor income ranking]
+pkkin                         pre-tax capital income [pre-tax capital income ranking]
+pkhou                         housing asset income [pre-tax capital income ranking]
+pkfin                         equity asset income [pre-tax capital income ranking]
+pkint                         interest income [pre-tax capital income ranking]
+pkkpe                         pensions and social insurance income (capital share) [pre-tax capital income ranking]
+pkmik                         capital component of mixed income
+pkinp                         interest payments [pre-tax capital income ranking]
+pkmor                         mortgage interest paid [pre-tax capital income ranking]
+pknmo                         non-mortgage interest paid [pre-tax capital income ranking]
+diinc                         post-tax national income
+cainc                         post-tax disposable income
+fprod                         taxes on production (net)
+fkprk                         capital component of taxes on production
+flprl                         labor component of taxes on production
+dicot                         current taxes on income and wealth
+ditaf                         federal taxes on income and wealth
+ditas                         state taxes on income and wealth
+dicab                         social assistance benefits in cash
+prspp                         primary surplus of private pension system
+ppinc                         public spending
+dikin                         social transfers in kind
+dicol                         collective consumption expenditure
+defic                         government deficit
+dpinc                         post-tax national income (proportional attribution)
+pppnc                         public spending (proportional attribution)
+dpkin                         social transfers in kind (proportional attribution)
+dpcol                         collective consumption expenditure (proportional attribution)
+dpfic                         government deficit (proportional attribution)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3) Macro wealth
+
+five-letter code              description
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+pweal                         net private wealth
+pwnfa                         private non-financial assets
+pwhou                         private housing assets
+pwdwe                         private dwellings
+pwlan                         private land underlying dwellings
+pwbus                         private business assets
+pwagr                         private agricultural land
+pwodk                         other domestic private capital
+pwnat                         private natural capital
+pwfin                         private financial assets
+pwfix                         private currency, deposits, bonds & loans
+pwcud                         private currency & deposits
+pwbol                         private bonds & loans
+pwequ                         private equity, fund shares & offshore wealth
+pweqi                         private equities
+pwoff                         private offshore wealth
+pwpen                         private pension funds & life insurance
+pwdeb                         private debt
+pwfie                         private financial assets excluding currency & deposits
+hweal                         net personal wealth
+hwnfa                         personal non-financial assets
+hwhou                         personal housing assets
+hwdwe                         personal dwellings
+hwlan                         personal land underlying dwellings
+hwbus                         personal business and other non-financial assets
+hwagr                         personal agricultural land
+hwodk                         other domestic personal capital
+hwnat                         personal natural capital
+hwfin                         personal financial assets
+hwfix                         personal currency, deposits, bonds & loans
+hwcud                         personal currency & deposits
+hwbol                         personal bonds & loans
+hwequ                         personal equity, fund shares & offshore wealth
+hweqi                         personal equities
+hwoff                         personal offshore wealth
+hwpen                         personal pension funds & life insurance
+hwdeb                         personal debt
+hwfie                         personal financial assets excluding cash
+iweal                         net non-profit wealth
+iwnfa                         non-profit non-financial assets
+iwhou                         non-profit housing assets
+iwdwe                         non-profit dwellings
+iwlan                         non-profit land underlying dwellings
+iwbus                         non-profit business and other non-financial assets
+iwagr                         non-profit agricultural land
+iwodk                         non-profit other domestic capital
+iwnat                         non-profit natural capital
+iwfin                         non-profit financial assets
+iwfix                         non-profit currency, deposits, bonds & loans
+iwcud                         non-profit currency & deposits
+iwbol                         non-profit bonds & loans
+iwequ                         non-profit equity, fund shares & offshore wealth
+iweqi                         non-profit equities
+iwoff                         non-profit offshore wealth
+iwpen                         non-profit pension funds & life insurance
+iwdeb                         non-profit debt
+iwfie                         non-profit financial assets excluding cash
+cwboo                         book value of corporations
+cwnfa                         corporate non-financial assets
+cwhou                         corporate housing assets
+cwdwe                         corporate dwellings
+cwlan                         corporate land underlying dwellings
+cwbus                         corporate business and other non-financial assets
+cwagr                         corporate agricultural land
+cwodk                         corporate other domestic capital
+cwnat                         corporate natural capital
+cwfin                         corporate financial assets
+cwfix                         corporate currency, deposits, bonds & loans
+cwcud                         corporate currency & deposits
+cwbol                         corporate bonds & loans
+cwequ                         corporate equity, fund shares & offshore wealth
+cweqi                         corporate equities
+cwoff                         corporate offshore wealth
+cwpen                         corporate pension funds & life insurance
+cwdeb                         corporate debt (non-equity liability)
+cwdeq                         market value of corporations (equity liability)
+cwres                         residual corporate wealth
+cwtoq                         Tobin's Q
+cwfie                         corporate financial assets excluding cash
+gweal                         net public wealth
+gwnfa                         government non-financial assets
+gwhou                         government housing assets
+gwdwe                         government dwellings
+gwlan                         government land underlying dwellings
+gwbus                         government business and other non-financial assets
+gwagr                         government agricultural land
+gwodk                         government other domestic capital
+gwnat                         government natural capital
+gwfin                         government financial assets
+gwfix                         government currency, deposits, bonds & loans
+gwcud                         government currency & deposits
+gwbol                         government bonds & loans
+gwequ                         government equity, fund shares & offshore wealth
+gweqi                         government equities
+gwoff                         government offshore wealth
+gwpen                         government pension funds & life insurance
+gwdeb                         government debt
+gwfie                         government financial assets excluding cash
+nweal                         market-value national wealth
+nwnfm                         national non-financial assets (market value)
+nwhom                         national housing assets (market value)
+nwbum                         national business and other non-financial assets (market value)
+nwodm                         national other domestic capital (market value)
+nwagr                         national agricultural land (market value)
+nwnat                         national natural capital (market value)
+nwnxa                         net foreign assets
+nwgxa                         gross foreign assets
+nwgxd                         gross foreign liabilities
+nwfim                         domestic financial assets
+nwdem                         domestic financial liabilities
+nwdwe                         national dwellings (book value)
+nwlan                         national land underlying dwellings (book value)
+nwbus                         national business and other non-financial assets (book value)
+nwodk                         national other domestic capital (book value)
+nwfin                         domestic financial assets (book value)
+nwdeb                         domestic financial liabilities (book value)
+nwfto                         gross domestic financial assets
+nwboo                         book-value national wealth
+psavi                         net private saving
+psgro                         gross private saving
+psdep                         private capital depreciation
+hsavi                         net personal saving
+hsgro                         gross personal saving
+hsdep                         personal capital depreciation
+isavi                         net non-profit saving
+isgro                         gross non-profit saving
+isdep                         non-profit capital depreciation
+csavi                         net corporate saving
+csgro                         gross corporate saving
+csdep                         corporate capital depreciation
+gsavi                         net government saving
+gsgro                         gross government saving
+gsdep                         government capital depreciation
+nsavi                         net national saving
+nsgro                         gross national saving
+nsdep                         national capital depreciation
+dsavi                         domestic investment
+fsavi                         net foreign saving
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4) Distributed wealth
+
+five-letter code              description
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+hweal                         net personal wealth
+hwnfa                         personal non-financial assets
+hwhou                         personal housing assets
+hwdwe                         personal dwellings
+hwlan                         personal land underlying dwellings
+hwbus                         personal business and other non-financial assets
+hwagr                         personal agricultural land
+hwodk                         personal other domestic capital
+hwnat                         personal natural capital
+hwfin                         personal financial assets
+hwfix                         personal currency, bonds & deposits
+hwcud                         personal currency & deposits
+hwbol                         personal bonds & loans
+hwequ                         personal equity, fund shares & offshore wealth
+hweqi                         personal equities
+hwoff                         personal offshore wealth
+hwpen                         personal pension funds & life insurance
+hwfie                         personal financial assets excluding currency & deposits
+hwdeb                         personal debt
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5) Wealth/income ratios
+
+five-letter code              description
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+wealn                         net national wealth to net national income ratio
+wealp                         net private wealth to net national income ratio
+wealh                         net personal wealth to net national income ratio
+weali                         net non-profit wealth to net national income ratio
+wealc                         net corporate wealth to net national income ratio
+wealg                         net public wealth to net national income ratio
+incta                         income reduction as a result of income tax
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6) Population
+
+five-letter code              description
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+popul                         population
+taxto                         total tax population
+taxma                         number of tax units — married couples & single adults
+taxad                         number of tax units — adults
+taxre                         number of tax returns
+popem                         employed population
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7) Price and exchange rates
+
+five-letter code              description
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+nyixx                         national income price index
+lcusp                         PPP conversion factor, LCU per USD
+lceup                         PPP conversion factor, LCU per EUR
+lcyup                         PPP conversion factor, LCU per CNY
+lcusx                         market exchange rate, LCU per USD
+lceux                         market exchange rate, LCU per EUR
+lcyux                         market exchange rate, LCU per CNY
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
